@@ -70,9 +70,9 @@
           </lx-form-item>
           <lx-form-item label="爱好" style="width:80%;text-align:left;">
             <lx-checkbox-group v-model="user.hobies1">
-              <lx-checkbox label="篮球" name="hoby">篮球</lx-checkbox>
-              <lx-checkbox label="羽毛球" name="hoby">羽毛球</lx-checkbox>
-              <lx-checkbox label="足球" name="hoby">足球</lx-checkbox>
+              <a-checkbox label="篮球" name="hoby">篮球</a-checkbox>
+              <a-checkbox label="羽毛球" name="hoby">羽毛球</a-checkbox>
+              <a-checkbox label="足球" name="hoby">足球</a-checkbox>
             </lx-checkbox-group>
           </lx-form-item>
         </lx-form>
@@ -119,14 +119,14 @@
     </div>
     <h4>lx-ui组件库——复选框lx-checkbox</h4>
     <div class="row">
-      <lx-checkbox label="1" name="hoby" v-model="hoby">篮球</lx-checkbox>
+      <a-checkbox label="1" name="hoby" v-model="hoby">篮球</a-checkbox>
     </div>
     <h4>lx-ui组件库——复选框组lx-checkbox-group</h4>
     <div class="row">
       <lx-checkbox-group v-model="hobies">
-        <lx-checkbox label="篮球" name="hoby">篮球</lx-checkbox>
-        <lx-checkbox label="羽毛球" name="hoby">羽毛球</lx-checkbox>
-        <lx-checkbox label="足球" name="hoby">足球</lx-checkbox>
+        <a-checkbox label="篮球" name="hoby">篮球</a-checkbox>
+        <a-checkbox label="羽毛球" name="hoby">羽毛球</a-checkbox>
+        <a-checkbox label="足球" name="hoby">足球</a-checkbox>
       </lx-checkbox-group>
     </div>
     <h4>lx-ui组件库——form表单和form-item——包裹表单控件组件</h4>
@@ -140,9 +140,9 @@
         </lx-form-item>
         <lx-form-item label="爱好" style="width:80%;text-align:left;">
           <lx-checkbox-group v-model="model.hobies1">
-            <lx-checkbox label="篮球" name="hoby">篮球</lx-checkbox>
-            <lx-checkbox label="羽毛球" name="hoby">羽毛球</lx-checkbox>
-            <lx-checkbox label="足球" name="hoby">足球</lx-checkbox>
+            <a-checkbox label="篮球" name="hoby">篮球</a-checkbox>
+            <a-checkbox label="羽毛球" name="hoby">羽毛球</a-checkbox>
+            <a-checkbox label="足球" name="hoby">足球</a-checkbox>
           </lx-checkbox-group>
         </lx-form-item>
         <lx-form-item style="width:80%;">
