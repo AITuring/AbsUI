@@ -27,8 +27,8 @@ module.exports = {
         ...(config.module.rules.get('vue').uses.get('vue-loader').get('options') || null) // 与 vue-loader 配置保持一致
       })
       .end()
-      .use('vue-dotmd-loader')
-      .loader('vue-dotmd-loader')
+      .use('vue-markdown-loader')
+      .loader('vue-markdown-loader')
       .options({
         dest: true,
         markdown: {
