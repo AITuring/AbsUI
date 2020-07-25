@@ -18,5 +18,25 @@ module.exports = {
         // 修改它的选项...
         return options
       })
-  }
+      config.module
+      .rule('dotmd')
+      .test(/\.md$/)
+      .use('vue-loader')
+      .loader('vue-loader')
+      .options({
+        ...(config.module.rules.get('vue').uses.get('vue-loader').get('options') || null) // 与 vue-loader 配置保持一致
+      })
+      .end()
+      .use('vue-dotmd-loader')
+      .loader('vue-dotmd-loader')
+      .options({
+        dest: true,
+        markdown: {
+          options: {
+            html: true
+          }
+        }
+      })
+      .end()
+    }
 }
