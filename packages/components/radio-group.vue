@@ -1,11 +1,3 @@
-<!--
- * @Description:
- * @version:
- * @Author: lxw
- * @Date: 2020-07-18 14:43:14
- * @LastEditors: lxw
- * @LastEditTime: 2020-07-21 19:39:04
--->
 <template>
   <div class="radio-group">
     <slot></slot>

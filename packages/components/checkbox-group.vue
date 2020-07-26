@@ -1,11 +1,3 @@
-<!--
- * @Description:
- * @version:
- * @Author: lxw
- * @Date: 2020-07-18 14:43:14
- * @LastEditors: lxw
- * @LastEditTime: 2020-07-21 20:35:25
--->
 <template>
   <div class="checkbox-group">
     <slot></slot>

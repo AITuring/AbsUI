@@ -1,11 +1,3 @@
-<!--
- * @Description:
- * @version:
- * @Author: lxw
- * @Date: 2020-07-18 14:43:14
- * @LastEditors: lxw
- * @LastEditTime: 2020-07-21 19:50:08
--->
 <template>
   <label class="lx-radio" :class="{'is-checked': model === label}">
     <span class="lx-radio__input">

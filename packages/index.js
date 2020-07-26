@@ -1,10 +1,10 @@
 import AButton from './components/button/index.js'
 import ADialog from './components/dialog/index.js'
-import ACheckbox from './components/checkbox/index.js'
 import LxInput from './components/input.vue'
 import LxSwitch from './components/switch.vue'
 import LxRadio from './components/radio.vue'
 import LxRadioGroud from './components/radio-group.vue'
+import LxCheckbox from './components/checkbox.vue'
 import LxCheckboxGroup from './components/checkbox-group.vue'
 import lxFormItem from './components/form-item.vue'
 import LxForm from './components/form.vue'
@@ -23,7 +23,7 @@ const components = [
   LxSwitch,
   LxRadio,
   LxRadioGroud,
-  ACheckbox,
+  LxCheckbox,
   LxCheckboxGroup,
   lxFormItem,
   LxForm,

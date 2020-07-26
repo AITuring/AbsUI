@@ -1,11 +1,3 @@
-<!--
- * @Description:
- * @version:
- * @Author: lxw
- * @Date: 2020-07-18 14:43:14
- * @LastEditors: lxw
- * @LastEditTime: 2020-07-24 11:43:50
--->
 <template>
   <transition name="message-fade">
     <div class="lx-message" v-if="visible" :class="[`lx-message--${type}`]">
